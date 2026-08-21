@@ -1,0 +1,60 @@
+.styles-hero {
+    padding-top: 160px;
+    padding-bottom: 20px;
+  }
+  
+  .styles-collection {
+    padding: 40px 65px 100px;
+  }
+  
+  .styles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+  
+  .style-card {
+    display: block;
+    position: relative;
+  
+    overflow: hidden;
+  
+    background-color: #825221;
+    text-decoration: none;
+  }
+  
+  .style-card img {
+    display: block;
+  
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  
+    object-fit: cover;
+  
+    transition: transform 0.3s ease;
+  }
+  
+  .style-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .style-card-text {
+    padding: 20px 25px 30px;
+  }
+  
+  .style-card-text h3 {
+    color: #e2b88d;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .style-card-text p {
+    color: #e2b88d;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+    margin: 12px 0 0;
+    padding: 0;
+  }
